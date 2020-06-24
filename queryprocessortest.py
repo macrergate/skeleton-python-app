@@ -7,4 +7,4 @@ def test_is_case_insensitive():
 	assert process_query("Who wrote romeo and JULIET") == "William Shakespeare"
 
 def test_returns_empty_string_if_cannot_process_query():
-	assert process_query("xxxx") == ""
+	assert process_query("xxxx") == "Hello, python world!"
